@@ -6,8 +6,10 @@ management:
             enabled: true
         env:
             enabled: true
-        git:
-            mode: "full"
+        #git:
+        #    mode: "full"
+    server:
+        port: 9292
     endpoint:
         shutdown:
             enabled: true
